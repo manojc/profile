@@ -1,0 +1,22 @@
+{
+    "name": "profile",
+    "version": "1.0.0",
+    "description": "profile app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/manojc/profile.git"
+    },
+    "author": "chalodem@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/manojc/profile/issues"
+    },
+    "homepage": "https://github.com/manojc/profile#readme",
+    "dependencies": {
+        "http": "0.0.0"
+    }
+}
