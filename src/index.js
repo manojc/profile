@@ -6,6 +6,6 @@ const server = createServer((request, response) => {
     console.log(`incoming request - ${request.url}`);
     createReadStream(join(__dirname, "index.html")).pipe(response);
 });
-server.listen(8080, () => { console.log(`app started on port - 8080`); });
+server.listen(parseInt(process.env.PORT), () => { console.log(`app started on port - ${process.env.PORT}`); });
 process.on("unhandledRejection", (reason, promise) => handler("unhandledRejection", reason))
     .on("uncaughtException", (error) => handler("uncaughtException", error));
