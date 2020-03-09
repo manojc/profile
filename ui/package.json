@@ -1,0 +1,45 @@
+{
+    "name": "react-demo",
+    "version": "1.0.0",
+    "description": "react-demo",
+    "main": "index.js",
+    "scripts": {
+        "start": "./node_modules/.bin/webpack -w",
+        "build": "./node_modules/.bin/webpack",
+        "serve": "./node_modules/.bin/hs -a 0.0.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/manojc/react-demo.git"
+    },
+    "keywords": [
+        "react"
+    ],
+    "author": "chalodem@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/manojc/react-demo/issues"
+    },
+    "homepage": "https://github.com/manojc/react-demo#readme",
+    "dependencies": {
+        "@types/react": "^16.8.22",
+        "@types/react-dom": "^16.8.4",
+        "@types/react-redux": "^7.1.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-redux": "^7.1.0"
+    },
+    "devDependencies": {
+        "awesome-typescript-loader": "^5.2.1",
+        "copy-webpack-plugin": "^5.1.1",
+        "css-loader": "^3.0.0",
+        "http-server": "^0.11.1",
+        "kuker": "^5.4.0",
+        "kuker-emitters": "^6.7.4",
+        "source-map-loader": "^0.2.4",
+        "style-loader": "^0.23.1",
+        "typescript": "^3.5.2",
+        "webpack": "^4.35.0",
+        "webpack-cli": "^3.3.5"
+    }
+}

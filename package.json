@@ -4,7 +4,7 @@
     "description": "profile app",
     "main": "index.js",
     "scripts": {
-        "start": "node ./src/index.js",
+        "start": "npm i; cd ui; npm install; npm run build;",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -19,6 +19,7 @@
     "homepage": "https://github.com/manojc/profile#readme",
     "dependencies": {
         "http": "0.0.0",
-        "router": "^1.3.4"
+        "router": "^1.3.4",
+        "shelljs": "^0.8.3"
     }
 }
