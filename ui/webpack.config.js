@@ -9,12 +9,7 @@ module.exports = {
     mode: "development",
     devtool: "source-map",
     resolve: {
-        extensions: [
-            ".ts",
-            ".tsx",
-            ".js",
-            ".json"
-        ]
+        extensions: [".ts", ".tsx", ".js", ".json"]
     },
     module: {
         rules: [
@@ -29,14 +24,21 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                use: ["style-loader", "css-loader"]
             }
         ]
     },
 
     plugins: [
-        new CopyWebpackPlugin([{
-            from: "./index.html", to: "../public/index.html"
-        }]),
+        new CopyWebpackPlugin([
+            {
+                from: "./index.html",
+                to: "../public/index.html"
+            },
+            {
+                from: "./src/assets",
+                to: "../public/assets"
+            }
+        ])
     ]
 };

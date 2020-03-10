@@ -1,6 +1,7 @@
 import * as React from "react";
-import { Component } from "react";
 import Components from "../index";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./app.css";
 
 export interface AppProps {}
 

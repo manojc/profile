@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Component } from "react";
+import "./body.css";
 
 export interface BodyProps {}
 
@@ -14,6 +14,42 @@ class Body extends React.Component<BodyProps, BodyState> {
         return (
             <React.Fragment>
                 <div id="body">
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
+                    <h1 style={{ textAlign: "center" }}>Body!</h1>
                     <h1 style={{ textAlign: "center" }}>Body!</h1>
                 </div>
             </React.Fragment>
