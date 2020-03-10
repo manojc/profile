@@ -1,16 +1,27 @@
 import * as React from "react";
+import { Component } from "react";
+import Components from "../index";
 
-export class App extends React.Component<{}> {
+export interface AppProps {}
 
-    public constructor(props: any) {
+export interface AppState {}
+
+class App extends React.Component<AppProps, AppState> {
+    constructor(props: any) {
         super(props);
+        this.state = {};
     }
 
-    public render(): React.ReactNode {
+    render(): React.ReactNode {
         return (
-            <h1>
-                Hello World!
-            </h1>
+            <React.Fragment>
+                <div className="container-fluid">
+                    <Components.Header></Components.Header>
+                    <Components.Body></Components.Body>
+                    <Components.Footer></Components.Footer>
+                </div>
+            </React.Fragment>
         );
     }
 }
+export default App;

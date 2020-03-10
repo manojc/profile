@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom";
 import { Store, createStore, combineReducers, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import { ReduxEmitter } from "kuker-emitters";
-import { App } from "./components/app/app";
+import Components from "./components/index";
 import { buttonToggleReducer } from "./reducers/app-reducer";
 import "./index.css";
 
@@ -17,7 +17,7 @@ const store: Store = createStore(
 ReactDOM.render(
     <Provider store={store}>
         <div className="container">
-            <App />
+            <Components.App></Components.App>
         </div>
     </Provider>,
     document.getElementById("app")
