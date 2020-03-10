@@ -15,42 +15,6 @@ class Body extends React.Component<BodyProps, BodyState> {
             <React.Fragment>
                 <div id="body">
                     <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
-                    <h1 style={{ textAlign: "center" }}>Body!</h1>
                 </div>
             </React.Fragment>
         );
