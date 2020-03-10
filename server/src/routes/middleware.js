@@ -14,7 +14,7 @@ module.exports = class Middleware {
     static async index(request, response, next) {
         try {
             response.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-            createReadStream(join(__dirname, "../../public/index.html")).pipe(response);
+            createReadStream(join(__dirname, "../../../public/index.html")).pipe(response);
         } catch (error) {
             console.error(`index action failed with error - ${error.stack || error}`);
             this._notFound(request, response, next);
@@ -33,7 +33,7 @@ module.exports = class Middleware {
     static async staticFiles(request, response, next) {
         try {
             response.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-            createReadStream(join(__dirname, `../..${request.url}`)).pipe(response);
+            createReadStream(join(__dirname, `../../..${request.url}`)).pipe(response);
         } catch (error) {
             console.error(`staticFiles action failed with error - ${error.stack || error}`);
             this._notFound(request, response, next);
