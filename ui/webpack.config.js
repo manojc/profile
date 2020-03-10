@@ -4,7 +4,7 @@ module.exports = {
     entry: "./src/index.tsx",
     output: {
         filename: "bundle.js",
-        path: __dirname + "../../dist"
+        path: __dirname + "../../public"
     },
     mode: "development",
     devtool: "source-map",
@@ -36,7 +36,7 @@ module.exports = {
 
     plugins: [
         new CopyWebpackPlugin([{
-            from: "./index.html", to: "../dist/index.html"
+            from: "./index.html", to: "../public/index.html"
         }]),
     ]
 };
