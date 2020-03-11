@@ -13,15 +13,17 @@ class Footer extends React.Component<FooterProps, FooterState> {
     render() {
         return (
             <React.Fragment>
-                <div id="footer" className="container">
+                <div id="footer">
                     <nav className="navbar navbar-dark bg-dark row">
-                        <div className="col-lg-2 offset-lg-10 navbar-brand">
-                            <span className="navbar-brand">powered by</span>
-                            <img
-                                id="powered-by"
-                                className="navbar-brand rotating"
-                                src="/public/assets/react-logo.png"
-                            />
+                        <div className="col-md-12 col-lg-12">
+                            <div className="navbar-brand float-right">
+                                <span className="navbar-brand">powered by</span>
+                                <img
+                                    id="powered-by"
+                                    className="navbar-brand rotating"
+                                    src="/public/assets/react-logo.png"
+                                />
+                            </div>
                         </div>
                     </nav>
                 </div>

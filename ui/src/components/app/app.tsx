@@ -16,11 +16,9 @@ class App extends React.Component<AppProps, AppState> {
     render(): React.ReactNode {
         return (
             <React.Fragment>
-                <div className="container-fluid">
-                    <Components.Header></Components.Header>
-                    <Components.Body></Components.Body>
-                    <Components.Footer></Components.Footer>
-                </div>
+                <Components.Header></Components.Header>
+                <Components.Body></Components.Body>
+                <Components.Footer></Components.Footer>
             </React.Fragment>
         );
     }

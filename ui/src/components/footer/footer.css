@@ -2,17 +2,19 @@
     position: fixed;
     width: 100%;
     bottom: 0;
+    height: 60px;
 }
 
-#footer > nav {
+#footer>nav {
     display: flex;
     justify-content: space-between;
 }
-#footer > nav span {
+
+#footer>nav span {
     margin: 0 10px 0 0;
 }
 
-#footer > nav img {
+#footer>nav img {
     max-width: 36px;
     padding: 0;
     margin: 0 0 0 auto;

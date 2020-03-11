@@ -14,12 +14,12 @@ class Header extends React.Component<HeaderProps, HeaderState> {
     render() {
         return (
             <React.Fragment>
-                <div id="header" className="container">
+                <div id="header">
                     <nav className="navbar navbar-dark bg-dark row">
-                        <a className="navbar-brand col-lg-1" href="#">
+                        <a className="navbar-brand" href="#">
                             Home
                         </a>
-                        <div className="col-lg-1 offset-lg-9 dropleft">
+                        <div className="dropleft navbar-brand">
                             <button
                                 className="navbar-toggler"
                                 id="dropdownMenu"

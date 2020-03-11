@@ -16,7 +16,7 @@ const store: Store = createStore(
 
 ReactDOM.render(
     <Provider store={store}>
-        <div className="container">
+        <div className="container-fluid">
             <Components.App></Components.App>
         </div>
     </Provider>,
