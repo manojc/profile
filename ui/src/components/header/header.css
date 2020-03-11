@@ -3,6 +3,7 @@
     width: 100%;
     top: 0;
     height: 60px !important;
+    z-index: 99;
 }
 
 .img-thumbnail {
