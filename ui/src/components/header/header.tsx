@@ -16,12 +16,13 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             <React.Fragment>
                 <div id="header">
                     <nav className="navbar navbar-dark bg-dark row">
-                        <a className="navbar-brand" href="#">
-                            Home
-                        </a>
-                        <div className="dropleft navbar-brand">
+                        <img
+                            src="/public/assets/dp.jpeg"
+                            className="navbar-brand img-thumbnail rounded-circle border border-danger"
+                        />
+                        <div className="dropleft navbar-brand mr-5">
                             <button
-                                className="navbar-toggler"
+                                className="navbar-toggler border border-white"
                                 id="dropdownMenu"
                                 data-toggle="dropdown"
                                 type="button"
