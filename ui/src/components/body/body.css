@@ -6,9 +6,23 @@
 .card {
     transition: transform ease-in-out;
     -webkit-transition: -webkit-transform .8s ease-in-out;
+    height: 500px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 0px 20px 20px grey;
+}
+
+.card>img {
+    width: 280px;
+    margin: 10px 0 0 10px;
 }
 
 .card:hover {
-    transform: rotateY(360deg);
-    -webkit-transform: rotateY(360deg);
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
 }

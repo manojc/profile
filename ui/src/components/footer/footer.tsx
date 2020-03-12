@@ -16,8 +16,8 @@ class Footer extends React.Component<FooterProps, FooterState> {
                 <div id="footer">
                     <nav className="navbar navbar-dark bg-dark row">
                         <div className="col-md-12 col-lg-12">
-                            <div className="navbar-brand float-right">
-                                <span className="mr-2">Powered By</span>
+                            <div className="navbar-brand float-right border border-white pr-1 pl-2">
+                                <span className="mr-1">Powered By</span>
                                 <img
                                     id="powered-by"
                                     className="navbar-brand rotating"
