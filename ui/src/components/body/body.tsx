@@ -16,7 +16,7 @@ class Body extends React.Component<BodyProps, BodyState> {
             <React.Fragment>
                 <div id="body" className="container">
                     <div className="card-row row">
-                        <div className="card mr-3 mb-3">
+                        <div className="card mr-1 ml-1 mb-3">
                             <img className="card-img-top" src="/public/assets/about-me.jpeg" alt="Card image cap" />
                             <div className="card-body">
                                 <h5 className="card-title">About Me</h5>
@@ -29,7 +29,7 @@ class Body extends React.Component<BodyProps, BodyState> {
                                 </a>
                             </div>
                         </div>
-                        <div className="card mr-3 mb-3">
+                        <div className="card mr-1 ml-1 mb-3">
                             <img className="card-img-top" src="/public/assets/about-me.jpeg" alt="Card image cap" />
                             <div className="card-body">
                                 <h5 className="card-title">Career</h5>
@@ -42,7 +42,7 @@ class Body extends React.Component<BodyProps, BodyState> {
                                 </a>
                             </div>
                         </div>
-                        <div className="card mr-3 mb-3">
+                        <div className="card mr-1 ml-1 mb-3">
                             <img className="card-img-top" src="/public/assets/about-me.jpeg" alt="Card image cap" />
                             <div className="card-body">
                                 <h5 className="card-title">Education</h5>
