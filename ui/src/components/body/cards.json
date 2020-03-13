@@ -1,0 +1,38 @@
+[
+    {
+        "title": "About Me",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "/public/assets/about-me.jpeg",
+        "button_label": "Go somewhere"
+    },
+    {
+        "title": "Career",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "/public/assets/career.jpg",
+        "button_label": "Go somewhere"
+    },
+    {
+        "title": "Education",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "/public/assets/education.jpeg",
+        "button_label": "Go somewhere"
+    },
+    {
+        "title": "Hobbies",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "/public/assets/hobbies.jpg",
+        "button_label": "Go somewhere"
+    },
+    {
+        "title": "Hire Me",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "/public/assets/hire-me.png",
+        "button_label": "Go somewhere"
+    },
+    {
+        "title": "Website Tech Stack",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "/public/assets/tech-stack.webp",
+        "button_label": "Go somewhere"
+    }
+]
