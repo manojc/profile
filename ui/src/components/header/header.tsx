@@ -16,10 +16,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             <React.Fragment>
                 <div id="header">
                     <nav className="navbar navbar-dark bg-dark row">
-                        <img
-                            src="/public/assets/dp.jpeg"
-                            className="navbar-brand img-thumbnail rounded-circle border border-danger"
-                        />
+                        <img src="/public/assets/profile.jpg" className="navbar-brand img-thumbnail rounded-circle" />
                         <div className="dropleft navbar-brand mr-5">
                             <button
                                 className="navbar-toggler border border-white"

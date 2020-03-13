@@ -1,18 +1,18 @@
 #body {
-    margin-bottom: 80px;
+    margin-bottom: 55px;
     margin-top: 80px;
 }
 
 .card {
     transition: transform ease-in-out;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
     height: 500px;
     width: 400px;
     cursor: pointer;
     box-shadow: 0px 20px 20px grey;
 }
 
-.card>img {
+.card > img {
     width: 95%;
     height: 60%;
     margin: 2.5% 0 0 2.5%;
