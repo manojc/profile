@@ -13,7 +13,7 @@ class Card extends React.Component<CardProps, CardState> {
     }
     render() {
         return (
-            <div className="card mr-1 ml-1 mb-3">
+            <div className="card mr-2 ml-2 mb-3">
                 <img className="card-img-top" src={this.props.card.image} alt="Card image cap" />
                 <div className="card-body">
                     <h5 className="card-title text-uppercase">{this.props.card.title}</h5>
