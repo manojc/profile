@@ -1,9 +1,9 @@
 [
     {
         "title": "About Me",
-        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "description": "personal information, social network, current working status",
         "image": "/public/assets/about-me.jpeg",
-        "button_label": "Go somewhere"
+        "button_label": "Read More"
     },
     {
         "title": "Career",

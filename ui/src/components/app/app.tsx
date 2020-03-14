@@ -16,6 +16,20 @@ class App extends React.Component<AppProps, AppState> {
     render(): React.ReactNode {
         return (
             <React.Fragment>
+                <div className="area">
+                    <ul className="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
                 <Components.Header></Components.Header>
                 <Components.Body></Components.Body>
                 <Components.Footer></Components.Footer>
