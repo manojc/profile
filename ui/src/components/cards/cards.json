@@ -22,7 +22,7 @@
     },
     {
         "title": "Hobbies",
-        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "description": "Astronomy, Cricket, Ping-Pong, Snooker, Chess, Music",
         "image": "/public/assets/hobbies.png",
         "button_label": "Read More",
         "route": "/hobbies"
@@ -37,7 +37,7 @@
     {
         "title": "Website Tech Stack",
         "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-        "image": "/public/assets/no-image.png",
+        "image": "/public/assets/website-tech-stack.png",
         "button_label": "Read More",
         "route": "website-tech-stack"
     }
