@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 export interface HeaderProps {}
@@ -16,7 +17,12 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             <React.Fragment>
                 <div id="header">
                     <nav className="navbar navbar-dark bg-dark row">
-                        <img src="/public/assets/profile.jpg" className="navbar-brand img-thumbnail rounded-circle" />
+                        <Link to="/">
+                            <img
+                                src="/public/assets/profile.jpg"
+                                className="navbar-brand img-thumbnail rounded-circle"
+                            />
+                        </Link>
                         <div className="dropleft navbar-brand mr-5">
                             <button
                                 className="navbar-toggler border border-white"
@@ -29,9 +35,9 @@ class Header extends React.Component<HeaderProps, HeaderState> {
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="dropdown-menu" aria-labelledby="dropdownMenu">
-                                <a className="dropdown-item" href="#">
+                                <Link to="/asdasd" className="dropdown-item">
                                     Action
-                                </a>
+                                </Link>
                                 <a className="dropdown-item" href="#">
                                     Another action
                                 </a>

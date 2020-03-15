@@ -3,36 +3,42 @@
         "title": "About Me",
         "description": "personal information, social network, current working status, new learnings",
         "image": "/public/assets/about-me.jpeg",
-        "button_label": "Read More"
+        "button_label": "Read More",
+        "route": "/about-me"
     },
     {
         "title": "Career",
         "description": "past companies, products built, technologies used, hobby projects",
         "image": "/public/assets/no-image.png",
-        "button_label": "Read More"
+        "button_label": "Read More",
+        "route": "/career"
     },
     {
         "title": "Education",
         "description": "schooling, graduation, post graduation, external courses",
         "image": "/public/assets/no-image.png",
-        "button_label": "Read More"
+        "button_label": "Read More",
+        "route": "/education"
     },
     {
         "title": "Hobbies",
         "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "image": "/public/assets/no-image.png",
-        "button_label": "Read More"
+        "button_label": "Read More",
+        "route": "/hobbies"
     },
     {
         "title": "Hire Me",
         "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "image": "/public/assets/no-image.png",
-        "button_label": "Read More"
+        "button_label": "Read More",
+        "route": "/hire-me"
     },
     {
         "title": "Website Tech Stack",
         "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "image": "/public/assets/no-image.png",
-        "button_label": "Read More"
+        "button_label": "Read More",
+        "route": "website-tech-stack"
     }
 ]

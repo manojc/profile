@@ -1,4 +1,5 @@
 import * as React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import Components from "../index";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./app.css";
@@ -13,27 +14,26 @@ class App extends React.Component<AppProps, AppState> {
         this.state = {};
     }
 
+    private _buildAnimationTemplate() {
+        return (
+            <div className="area">
+                <ul className="circles">
+                    {Array.from(Array(10)).map((_, i) => (
+                        <li key={i}></li>
+                    ))}
+                </ul>
+            </div>
+        );
+    }
+
     render(): React.ReactNode {
         return (
-            <React.Fragment>
-                <div className="area">
-                    <ul className="circles">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+            <Router>
+                {this._buildAnimationTemplate()}
                 <Components.Header></Components.Header>
                 <Components.Body></Components.Body>
                 <Components.Footer></Components.Footer>
-            </React.Fragment>
+            </Router>
         );
     }
 }

@@ -1,35 +1,32 @@
 import * as React from "react";
-import "./body.css";
+import { Switch, Route, Link } from "react-router-dom";
 import Components from "..";
-import * as cards from "./cards.json";
+import "./body.css";
 
 export interface BodyProps {}
 
-export interface BodyState {
-    cards: Array<any>;
-}
+export interface BodyState {}
 
 class Body extends React.Component<BodyProps, BodyState> {
     constructor(props: BodyProps) {
         super(props);
-        this.state = {
-            cards: [...cards]
-        };
-    }
-
-    buildCards(): Array<any> {
-        return this.state.cards.map((card, index) => {
-            return <Components.Card key={index} card={card}></Components.Card>;
-        });
+        this.state = {};
     }
 
     render(): React.ReactNode {
         return (
-            <React.Fragment>
-                <div id="body" className="container-fluid">
-                    <div className="card-row row">{this.buildCards()}</div>
-                </div>
-            </React.Fragment>
+            <div id="body" className="container-fluid">
+                <Switch>
+                    <Route exact path="/" component={Components.Cards} />
+                    <Route exact path="/about-me" component={Components.AboutMe} />
+                    <Route exact path="/career" component={Components.Career} />
+                    <Route exact path="/education" component={Components.Education} />
+                    <Route exact path="/hobbies" component={Components.Hobbies} />
+                    <Route exact path="/hire-me" component={Components.HireMe} />
+                    <Route exact path="/website-tech-stack" component={Components.WebsiteTechSTack} />
+                    <Route path="**" component={Components.PageNotFound} />
+                </Switch>
+            </div>
         );
     }
 }
