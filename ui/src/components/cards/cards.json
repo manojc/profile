@@ -9,28 +9,28 @@
     {
         "title": "Career",
         "description": "past companies, products built, technologies used, hobby projects",
-        "image": "/public/assets/no-image.png",
+        "image": "/public/assets/career.png",
         "button_label": "Read More",
         "route": "/career"
     },
     {
         "title": "Education",
         "description": "schooling, graduation, post graduation, external courses",
-        "image": "/public/assets/no-image.png",
+        "image": "/public/assets/education.png",
         "button_label": "Read More",
         "route": "/education"
     },
     {
         "title": "Hobbies",
         "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-        "image": "/public/assets/no-image.png",
+        "image": "/public/assets/hobbies.png",
         "button_label": "Read More",
         "route": "/hobbies"
     },
     {
         "title": "Hire Me",
         "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-        "image": "/public/assets/no-image.png",
+        "image": "/public/assets/hire-me.png",
         "button_label": "Read More",
         "route": "/hire-me"
     },
