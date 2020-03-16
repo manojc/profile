@@ -2,7 +2,7 @@
     {
         "title": "About Me",
         "description": "personal information, social network, current working status, new learnings",
-        "image": "/public/assets/about-me.jpeg",
+        "image": "/public/assets/about-me.png",
         "button_label": "Read More",
         "route": "/about-me"
     },
@@ -22,21 +22,21 @@
     },
     {
         "title": "Hobbies",
-        "description": "Astronomy, Cricket, Ping-Pong, Snooker, Chess, Music",
+        "description": "Astronomy, Cricket, Ping-Pong, Snooker, Chess, Music, Programming",
         "image": "/public/assets/hobbies.png",
         "button_label": "Read More",
         "route": "/hobbies"
     },
     {
         "title": "Hire Me",
-        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "description": "Do you think my skills are good enough? Hire me!",
         "image": "/public/assets/hire-me.png",
         "button_label": "Read More",
         "route": "/hire-me"
     },
     {
         "title": "Website Tech Stack",
-        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "description": "React, Redux, Redux Saga, NodeJS, MongoDB deployed on AWS t2 micro instance",
         "image": "/public/assets/website-tech-stack.png",
         "button_label": "Read More",
         "route": "website-tech-stack"

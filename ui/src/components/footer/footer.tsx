@@ -14,7 +14,7 @@ class Footer extends React.Component<FooterProps, FooterState> {
         return (
             <React.Fragment>
                 <div id="footer">
-                    <nav className="navbar navbar-dark bg-dark row">
+                    <nav className="navbar navbar-dark bg-secondary row">
                         <div className="col-md-12 col-lg-12">
                             <div className="navbar-brand float-right pr-1 pl-2">
                                 <span className="mr-1">Powered By</span>

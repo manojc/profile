@@ -20,7 +20,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
                         <Link to="/">
                             <img
                                 id="logo"
-                                src="/public/assets/profile.jpg"
+                                src="/public/assets/profile.png"
                                 className="navbar-brand img-thumbnail rounded-circle"
                             />
                         </Link>
