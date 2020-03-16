@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import "../cards/cards.css";
+import "./about-me.css";
 
 export interface CareerProps {}
 
@@ -13,15 +13,97 @@ class Career extends React.Component<CareerProps, CareerState> {
     }
     render() {
         return (
-            <div id="cards-view" className="row">
-                <div className="card col-lg-8 col-md-8 col-sm-10">
-                    <img className="card-img-top" src="" alt="Card image cap" />
+            <div id="about-me-view" className="container">
+                <div className="row card">
                     <div className="card-body">
-                        <h5 className="card-title text-uppercase">about me</h5>
-                        <p className="card-text">about me description</p>
-                        <Link className="btn btn-primary btn-lg" to="/">
-                            Take Me Home
-                        </Link>
+                        <h1>About Me</h1>
+                        <hr />
+                        <div className="card-content">
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                            <p className="card-text">about me description</p>
+                        </div>
                     </div>
                 </div>
             </div>

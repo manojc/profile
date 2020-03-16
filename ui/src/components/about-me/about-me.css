@@ -1,0 +1,28 @@
+#about-me-view {
+    height: calc(100vh - 150px);
+}
+
+#about-me-view .row, #about-me-view .card {
+    background-color: rgb(256, 256, 256, 0.4);
+    border-radius: 10px;
+    height: 100%;
+}
+
+#about-me-view .card-body {
+    padding-top: 0;
+}
+
+#about-me-view .card-content {
+    overflow-y: auto;
+    height: calc(100% - 50px);
+}
+
+#about-me-view h1 {
+    font-family: "Raleway-Bold", sans-serif;
+    border-radius: 10px;
+    margin: 0;
+}
+
+hr {
+    margin-top: 0;
+}
